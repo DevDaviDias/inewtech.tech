@@ -129,3 +129,23 @@
 .slick-dots li button{
     font-size: 0px;
 }
+
+
+
+
+
+
+#successMessage {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: scale(0.9);
+}
+
+#successMessage.show {
+    opacity: 1 !important;
+    transform: scale(1);
+}
+
+#successMessage.opacity-0 {
+    opacity: 0;
+    transform: scale(0.9);
+}
