@@ -264,3 +264,36 @@
 
 
 })(window.jQuery);
+
+
+
+document.querySelector('.contact-form').addEventListener('submit', async function (event) {
+    event.preventDefault(); // Evita redirecionamento
+    const formData = new FormData(this);
+
+    try {
+        const response = await fetch(this.action, {
+            method: this.method,
+            body: formData
+        });
+
+        if (response.ok) {
+            document.getElementById('successMessage').style.display = 'block';
+            setTimeout(() => {
+                document.getElementById('successMessage').style.display = 'none';
+            }, 3000); // Oculta mensagem após 3 segundos
+            this.reset();
+        } else {
+            alert('Erro ao enviar a mensagem.');
+        }
+    } catch (error) {
+        console.error('Erro:', error);
+    }
+}); 
+
+
+
+  
+
+
+  
