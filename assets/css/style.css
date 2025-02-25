@@ -1,9 +1,9 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: AIcraft - AI Application & Generator HTML Template
+    Template Name: Inewtech -
     Author:  SolverWp
-    Support: support.solverwp@gmail.com
-    Description: AIcraft - AI Application & Generator HTML Template
+    Support: inewtech.tech@gmail.com
+    Description: AIcraft - 
     Version: 1.0
 
 --------------------------
@@ -50,14 +50,14 @@
 }
 
 .case-details-wrapper .post-content .check-list.style-one li i, .about-one_content-box p span, .clients-text.style-one p, .error-content h1 span, .footer-default .footer_widget_nav_menu ul li a:hover, .footer-default .footer_about_widget .footer-content ul.social-link li a:hover i, .user-form .form-text span a, .blog-details-wrapper .blog-post-item .post-content .ac-postbox-tag .ac-postbox-cats a:hover, .blog-details-wrapper .blog-post-item .post-content .ac-postbox-tag .ac-postbox-cats span, .blog-details-wrapper .blog-post-item .post-content ul.check-list li i, .blog-details-wrapper .blog-post-item .post-content .post-meta span i, .sidebar-widget.sidebar-recent-widget .post-thumbnail-content .post-title-date h6:hover, .sidebar-widget.sidebar-category-widget .sidebar-widget-content ul li a:hover, .blog-post-item.style-two .post-content .post-meta-wrap .post-meta span i, .blog-post-item.style-two .post-content .entry-content .read-more.style-one span, .blog-post-item.style-two .post-content .entry-content h3.title:hover, .post-meta.style-two span i, .team-item.style-one .member-info .content h4:hover, .pricing-item.style-one .pricing-head h3, .iconic-info-box.style-five .content p:hover a, .iconic-info-box.style-four .icon, .iconic-info-box.style-two .icon i, .iconic-info-box.style-one .content h4:hover, .iconic-info-box.style-one .icon i, .sub-title.style-one, .hero-wrapper .hero-content .heading-title span, .navigation-default .ac-header-one__right-btn .ac-header-bnt-1 a:hover, .navigation-default .main-menu ul > li:hover:hover > a, .navigation-default .main-menu ul > li:hover > a, .ac-header-one__right-btn.style-one .ac-dark-btn a, .home-one-dark .clients-text p, .home-one-dark .footer-default .footer_about_widget .footer-content ul.social-link li a:hover i, .home-one-dark .footer_widget_nav_menu ul li a:hover, .home-one-dark .header-navigation .main-menu ul > li:hover:hover > a, .home-one-dark .header-navigation .main-menu ul > li:hover > a, .home-one .footer-default .footer_about_widget .footer-content ul.social-link li a:hover i {
-  background: linear-gradient(90deg, #F762D8 -8.37%, #814AFF 52.7%, #4AB6FE 110.76%);
+  background: linear-gradient(90deg,  #F9C452 -8.37%, #E8871E 52.7%, #D63447 110.76%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .intro-wrapper, .sidebar-nav-widget a.active, .sidebar-nav-widget .nav-link.active, .sidebar-nav-widget a:hover, .sidebar-nav-widget h6:after, .sidebar-nav-widget.style-two .nav-tabs .nav-link.active, .author-card .author-thumb-item .thumb, .footer-default .footer_about_widget .footer-content ul.social-link li a:hover, .user-form .theme-btn.style-one:hover, .team-details-wrapper .member-info ul.social-link li a:hover, .skill-one_image-box .play-button .video-popup, .section-image-box.style-one:after, .sidebar-widget.tag-cloud-widget .tagcloud a:hover, .blog-post-item.style-two .post-content .entry-content .read-more.style-one, .skill-item.style-one .skill-bar, .team-item.style-one .member-info .share-button ul.social-link li a:hover, .team-item.style-one .member-info .share-button .icon:hover, .pricing-tabs .nav-link.active, .iconic-number-box.style-two .number, .home-one-dark .footer-default .footer_about_widget .footer-content ul.social-link li a:hover, .home-one .footer-default .footer_about_widget .footer-content ul.social-link li a:hover {
-  background: linear-gradient(90deg, #F762D8 -8.37%, #814AFF 52.7%, #4AB6FE 110.76%);
+  background: linear-gradient(90deg, #F9C452 -8.37%, #E8871E 52.7%, #D63447  110.76%);
 }
 
 .video-two_image-box .video-popup, .theme-tabs.style-three .nav-link.active, .theme-tabs.style-two .nav-link.active, .pricing-item.style-two .pricing-head, .iconic-info-box.style-three .icon, .theme-btn.style-one, .circle-list.style-one li:before {
@@ -118,7 +118,7 @@ h5 {
 =======================----*/
 /* Base CSS */
 :root {
-  --blue-color: #004BFF;
+  /*--blue-color: #004BFF;
   --green-color: #65FF4B;
   --heading-color: #282828;
   --black-dark-color: #1D1D1D;
@@ -127,7 +127,22 @@ h5 {
   --gray-light-color: #FAFAFA;
   --text-color: #828282;
   --white-color: #ffffff;
-  --border-color: #E0E0E0;
+  --border-color: #E0E0E0; */
+
+  --primary-color: #F9C452; /* Cor da sua logo */
+  --blue-color: #D63447; /* Vermelho vibrante, combinando com o dourado */
+  --green-color: #F97B22; /* Laranja suave para harmonia com o dourado */
+  --heading-color: #3A3A3A; /* Cinza escuro metálico para contraste */
+  --black-dark-color: #121212; /* Preto profundo para sofisticação */
+  --gray-color: #7D6E83; /* Lilás acinzentado, equilibrando o dourado */
+  --dark-gray-color: #5A5A5A; /* Cinza médio, mais neutro */
+  --gray-light-color: #FAFAFA; /* Mantido para fundo claro */
+  --text-color: #8D8F96; /* Cinza suave para texto */
+  --white-color: #ffffff; /* Branco puro, sem mudanças */
+  --border-color: #E0E0E0; /* Mantido para bordas sutis */
+  --scrollbar-thumb:  #D4A373; /* Tom de dourado queimado */
+
+
   --font: "Spline Sans", sans-serif;
 }
 
@@ -291,12 +306,15 @@ ul.social-link li {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+ /* background: #f1f1f1; */
+ background: #FAE5B6; /* Bege dourado suave */
+ 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--black-dark-color);
+  background: var(--scrollbar-thumb);
+   border-radius: 10px;
 }
 
 /*===== Preloader =====*/
@@ -365,7 +383,7 @@ ul.social-link li {
   border-bottom: 1px solid var(--border-color);
 }
 .home-one .footer-default .footer_about_widget .footer-content ul.social-link li a {
-  background: #E0E0E0;
+   background: #E0E0E0; 
 }
 .home-one .footer-default .footer_about_widget .footer-content ul.social-link li a:after {
   background: #fff;
