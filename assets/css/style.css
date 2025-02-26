@@ -379,6 +379,8 @@ ul.social-link li {
 /*====================
     End COMMON css 
 ======================*/
+
+
 .home-one .header-navigation.sticky {
   border-bottom: 1px solid var(--border-color);
 }
@@ -1085,7 +1087,8 @@ ul.social-link li {
 
 .hero-one_image-box {
   max-width: 840px;
-  margin: 0 auto 50px;
+  /* margin: 0 auto 50px; */
+  margin: 70px auto;
 }
 .hero-one_image-box img {
   border-radius: 12px;
